@@ -18,3 +18,11 @@
 * Запустите среду Jupyter командой Jupyter lab
 
 В браузере откроется веб-интерфейс Jupyter. Открывайте любые файлы формата .ipynb и наслаждайтесь. В рамках вебинара будем открывать те файлы .ipynb, которые доступны в репозитории. Начать можно с about или с simple_ndvi_monitoring/0_intro.ipynb
+
+Если возникли проблемы с установкой из файла среды environment.yml, то разверните среду вручную:
+
+conda create --name scgis python=3
+
+conda activate scgis
+
+conda install -n scgis gdal matplotlib requests jupyterlab
